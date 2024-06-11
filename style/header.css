@@ -1,0 +1,80 @@
+.cabeçalho {
+    background-color: rgba(0, 0, 0, 0.5); ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+    flex-wrap: wrap;
+    }
+    
+    
+    .iconamoon--menu-burger-horizontal-bold {
+        display: inline-block;
+        width: 1.2em;
+        height: 1.2em;
+        margin: 0.5rem;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23ff0000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' d='M3 6h18M3 12h18M3 18h18'/%3E%3C/svg%3E");
+        }
+        
+        .container__botao {
+            display: none;
+            }
+            
+            .container__logo__mc{
+                width: 2rem;
+                }
+                
+                .container__redes{
+                    margin: 0.5rem;
+}
+
+.icon-park-outline--facebook-one {
+  display: inline-block;
+  width: 1.2em;
+  height: 1.2em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cg fill='none' fill-rule='evenodd' clip-rule='evenodd'%3E%3Cpath stroke='%23ff0000' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' d='M4.111 46A2.117 2.117 0 0 1 2 43.877V4.123C2 2.95 2.945 2 4.111 2H43.89C45.055 2 46 2.95 46 4.123v39.754A2.117 2.117 0 0 1 43.889 46z'/%3E%3Cpath fill='%23ff0000' d='M38.662 17.887h-4.869a2.445 2.445 0 0 0-2.444 2.444v4.89h7.313l-1.071 7.332h-6.242V46h-8.042V32.553h-6.64v-7.331h6.554l.086-6.959l-.024-2.494a6.377 6.377 0 0 1 6.376-6.438h9.003z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.bi--instagram {
+    display: inline-block;
+    width: 1.2em;
+    height: 1.2em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23ff0000' d='M8 0C5.829 0 5.556.01 4.703.048C3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7C.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297c.04.852.174 1.433.372 1.942c.205.526.478.972.923 1.417c.444.445.89.719 1.416.923c.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417c.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046c.78.035 1.204.166 1.486.275c.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485c.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598c-.28.11-.704.24-1.485.276c-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598a2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485c-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486c.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276c.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92a.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217a4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334a2.667 2.667 0 0 1 0-5.334'/%3E%3C/svg%3E");
+  }
+
+.lista__menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 40vw;
+    
+}
+
+.container__botao:checked~.lista__menu{
+    display: block;
+}
+
+.lista__menu{
+    background-color: aliceblue;
+    border-radius: 0 5px 5px 0;
+}
+
+.lista__menu__item{
+    padding: 1.0rem 0 1.0rem 0;
+}
+.lista__menu__item__link{
+    font-family: var(--font2);
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+    
+}

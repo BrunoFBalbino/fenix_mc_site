@@ -1,0 +1,48 @@
+@import url(./style/header.css);
+@import url(./style/carrosel.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font1: "Anton";
+    --font2: "REM", sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url('/img/gif_banner.gif');
+    background-repeat: no-repeat;
+    background-color: black;
+    width: 100vW;
+}
+
+.banner__fundo{
+    position: relative;
+    top: 5rem;
+    width: 100vw; /* Ajuste conforme necessário */
+}
+
+.banner__logo{
+    position: absolute;
+    width: 100vw;
+    top: 8rem;
+    z-index: 1;
+
+}
+
+.banner__moto{
+    position: absolute;
+    top: 13rem; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30vw;
+    z-index: 2;
+}
+
+
+
