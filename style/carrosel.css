@@ -43,12 +43,44 @@
     padding: 1.5rem 0;
     color: red;
     text-align: center;
-    font-family: var(--font1);
+    font-family: var(--font3);
+    font-weight: 700;
   }
 
   .carrosel_support img{
     flex-wrap: wrap;
     width: 70%;
 
+  }
+
+  @media (min-width: 1020px) {
+
+    .carrosel{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      padding: 20rem 0 0 0;
+      z-index: 2;
+    }
+
+    .swiper-container {
+      width: 20%
+    }
+
+    .swiper-slide{
+      width: 800px;
+    }
+
+    .carrosel_support{
+      font-size: 25px;
+      font-weight: 500;
+    }
+
+
+    .carrosel_support img{
+      width: 30%;
+  
+    }
+    
   }
   

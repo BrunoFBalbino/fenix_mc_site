@@ -1,43 +1,45 @@
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
     background-color: rgb(255, 240, 240, 0.9);
     padding: 0 0 3% 0;
     align-items: center;
-    
+
 }
-.footer__escudo{
-    display:flex;
+
+.footer__escudo {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 0.4rem 0;
 }
 
-.borda{
+.borda {
     background-color: rgb(0, 0, 0);
     width: 10vh;
     height: 0.2rem;
 }
 
-.contato__esc__fenix{
+.contato__esc__fenix {
     background-image: url(/img/footer_escudo_fenix.png);
-    background-size: contain ;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     height: 2rem;
     width: 2rem;
 }
 
-.footer__contato{
-    font-family: var(--font2);
+.footer__contato {
+    font-family: var(--font3);
     margin: 0.2rem 0;
     font-weight: 700;
     font-size: 30px;
 }
 
-.footer__campo__contato{
+.footer__campo__contato {
     display: flex;
     flex-direction: column;
+    font-family: var(--font2);
 }
 
 .footer__campo__contato button {

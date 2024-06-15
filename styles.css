@@ -10,17 +10,20 @@
 :root {
     --font1: "Anton";
     --font2: "REM", sans-serif;
+    --font3: "Bitter", serif;
 
 }
 
 body {
     display: flex;
+    background: url('/img/gif_banner.gif') no-repeat top center;
+    background-size: 100% auto;
     flex-direction: column;
-    background: url('/img/gif_banner.gif');
-    background-repeat: no-repeat;
     background-color: black;
-    width: 100vW;
 }
+
+
+
 
 .banner__fundo{
     position: relative;
@@ -29,6 +32,8 @@ body {
 }
 
 .banner__logo{
+    display: flex;
+    justify-content: center;
     position: absolute;
     width: 100vw;
     top: 8rem;
@@ -45,5 +50,27 @@ body {
     z-index: 2;
 }
 
+
+
+@media screen and (min-width: 1020px) {
+
+
+    .banner__fundo{
+        top: 20rem;
+    }
+
+    .banner__logo{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80vw;
+        top: 35rem;
+    }
+
+    .banner__moto{
+        width: 25vw;
+        top: 48rem;
+    }
+    
+}
 
 
