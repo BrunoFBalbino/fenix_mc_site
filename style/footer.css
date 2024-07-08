@@ -4,6 +4,8 @@
     background-color: rgb(255, 240, 240, 0.9);
     padding: 0 0 3% 0;
     align-items: center;
+    height: auto;
+    
 
 }
 
@@ -56,4 +58,24 @@
 
 .footer__campo__contato button:hover {
     background-color: #530603;
+}
+
+.footer__sobre{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 240, 240, 0.9);
+    padding: 0 0 3% 0;
+    align-items: center;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__sobre a {
+    text-decoration: none;
+    font-family: var(--font2);
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
 }
