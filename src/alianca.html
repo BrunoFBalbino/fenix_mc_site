@@ -2,38 +2,85 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fenix_mc_2.0/alianca</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="/style/sobre.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fenix_mc_2.0/alianca</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/style/alianca.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+
+  <!-- Link CSS do Swiper -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<!-- Script JS do Swiper -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
 </head>
 
 <body>
-    <header class="cabeçalho">
-        <div class="container">
-          <input type="checkbox" id="menu" class="container__botao">
-          <label for="menu"><span class="iconamoon--menu-burger-horizontal-bold"></span> </label>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu"><span class="iconamoon--menu-burger-horizontal-bold"></span> </label>
+
+      <ul class="lista__menu">
+        <li class="lista__menu__item">
+          <a class="lista__menu__item__link" href="/index.html">Home</a>
+        </li>
+        <li class="lista__menu__item">
+          <a class="lista__menu__item__link" href="/src/sobre.html">Sobre</a>
+        </li>
+        <li class="lista__menu__item">
+          <a class="lista__menu__item__link" href="/src/alianca.html">Aliança Biker</a>
+        </li>
+      </ul>
+    </div>
+    <img class="container__logo__mc" src="/img/banner_logo_fenix.png" alt="logo__fenixmc">
+    <span class="container__redes">
+      <a class="icon-park-outline--facebook-one" href="https://www.facebook.com/fenixmcriodejaneiro/"></a>
+      <a class="bi--instagram" href="https://www.instagram.com/fenix_mc_66/"></a>
+    </span>
+  </header>
+  <main >
+    <div class="background-bandeira"></div>
+    <div class="principal__alianca">
+      <h1>Aliança Real Biker</h1>
+      <img src="/img/Union.svg" alt="img-moto">
+      <p>É uma aliança composta por Moto Clubes que seguem a mesma linha, a linha tradicional. A Aliança surgil
+        inicialmente da união entre dois MC's, o Pássaros Selvagens MC e o Heaven and Hell MC. Posteriormente o Índios
+        MC, Fênix MC e Bombeiros do Asfalto MC juntaram-se na Aliança. No REAL BIKER cada Clube é independente e
+        soberano.</p>
+
+    </div>
     
-          <ul class="lista__menu">
-            <li class="lista__menu__item">
-              <a class="lista__menu__item__link" href="index.html">Home</a>
-            </li>
-            <li class="lista__menu__item">
-              <a class="lista__menu__item__link" href="/src/sobre.html">Sobre</a>
-            </li>
-            <li class="lista__menu__item">
-              <a class="lista__menu__item__link" href="alianca.html">Aliança Biker</a>
-            </li>
-          </ul>
+    
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="/img/realBiker/fenix_realbiker.png" alt="Imagem 1"></div>
+          <div class="swiper-slide"><img src="/img/realBiker/bombeiros_realbiker.png" alt="Imagem 2"></div>
+          <div class="swiper-slide"><img src="/img/realBiker/heaven_and_hell_realbiker.png" alt="Imagem 3"></div>
+          <div class="swiper-slide"><img src="/img/realBiker/indios_realbiker.png" alt="Imagem 4"></div>
+          <div class="swiper-slide"><img src="/img/realBiker/passaro_selvagem_realbiker.png" alt="Imagem 5"></div>
         </div>
-        <img class="container__logo__mc" src="/img/banner_logo_fenix.png" alt="logo__fenixmc">
-        <span class="container__redes">
-          <a class="icon-park-outline--facebook-one" href="#"></a>
-          <a class="bi--instagram" href="#"></a>
-        </span>
-      </header>
-   
+    
+      <!-- Script JS do Swiper -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+        });
+      </script>
+  </main>
+  <footer></footer>
+  
 
 </body>
 
